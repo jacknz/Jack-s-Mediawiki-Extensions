@@ -1,7 +1,7 @@
 <?php
-# Extension:EasyGallery{{Category:Extensions}}{{php}}{{Category:Extensions created with Template:SpecialPage}}
+# Extension:EasyGallery
 # - Licenced under LGPL (http://www.gnu.org/copyleft/lesser.html)
-# - Author: [http://www.flashkiwi.com Jack Henderson]
+# - Author: [http://organicdesign.co.nz/User:Jack Jack Henderson]
 
 if (!defined('MEDIAWIKI')) die('Not an entry point.');
 
@@ -11,8 +11,8 @@ $wgExtensionFunctions[] = 'wfSetupEasyGallery';
 
 $wgExtensionCredits['specialpage'][] = array(
 	'name'        => 'Special:EasyGallery',
-	'author'      => '[http://www.flashkiwi.com Jack Henderson]',
-	'description' => 'An special page for creating a gallery, made with [http://www.organicdesign.co.nz/Template:SpecialPage Template:SpecialPage].',
+	'author'      => '[http://organicdesign.co.nz/User:Jack Jack Henderson]',
+	'description' => 'An special page for creating a gallery.',
 	'url'         => 'http://www.organicdesign.co.nz/Extension:EasyGallery',
 	'version'     => EASYGALLERY_VERSION
 	);
